@@ -8,14 +8,15 @@
  */
 int main(void)
 {
-	char a[] = "_putchar";
-	int b = strlen(a);
+	char s[] = "_putchar";
+	int l = strlen(s);
 	int i;
 
-	for (i = 0; i < b; i++)
+	for (i = 0; i < l; i++)
 	{
-		_putchar(a[i]);
+		_putchar(s[i]);
 	}
 	_putchar('\n');
+
 	return (0);
 }
