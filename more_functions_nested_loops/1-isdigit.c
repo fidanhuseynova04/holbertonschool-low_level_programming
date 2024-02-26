@@ -2,7 +2,7 @@
 
 /**
  * _isdigit - check the code.
- * c@: variable
+ * @c: variable
  * Return: 1 or 0
  */
 
