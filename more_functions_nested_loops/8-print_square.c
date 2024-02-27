@@ -3,7 +3,7 @@
 /**
  * print_square - check the code.
  * @size: variable
- * Return: 0
+ * Return: Always 0.
  */
 void print_square(int size)
 {
