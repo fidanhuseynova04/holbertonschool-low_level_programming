@@ -3,13 +3,17 @@
 #include <string.h>
 /**
  * _strlen - check the code
- * @s: variable
+ * @s: char
  * Return: Always 0.
  */
 int _strlen(char *s)
 {
-	int length;
+	int i = 0;
 
-	length = strlen(s);
-	return (length);
+	while (*(s + i) != 0)
+	{
+		i++;
+	}
+
+	return (i);
 }
