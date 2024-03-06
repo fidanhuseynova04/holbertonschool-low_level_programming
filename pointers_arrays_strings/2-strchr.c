@@ -22,7 +22,7 @@ char *_strchr(char *s, char c)
 			k = j;
 			while (j < i)
 			{
-				printf("%s", *(s + k);
+				printf("%d", *(s + k);
 				k++;
 			}
 
