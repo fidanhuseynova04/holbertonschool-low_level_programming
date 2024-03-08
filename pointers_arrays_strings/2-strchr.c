@@ -10,24 +10,17 @@ char *_strchr(char *s, char c)
 {
 	int i = 0;
 	int j = 0;
-	int k;
 
-	while (*(s + i) != '\0')
+	for (i; s[i]; i++)
 	{
-		i++;
 	}
-	while (j < i)
+	for (j; j <= i; j++)
 	{
-		if (*(s + i) == c)
+		if (s[j] == c)
 		{
-			k = j;
-			while (j < i)
-			{
-				printf("%d", *(s + k));
-				k++;
-			}
-
+			s += j;
+			return (s);
 		}
-		j++;
+	return (NULL);
 	}
 }
