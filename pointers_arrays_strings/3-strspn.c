@@ -8,7 +8,7 @@
  */
 unsigned int _strspn(char *s, char *accept)
 {
-	int i, count = 0;
+	int i = 0, count = 0;
 
 	while (*(s) != 32)
 	{
