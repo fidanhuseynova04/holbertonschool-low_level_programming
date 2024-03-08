@@ -1,7 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * *_strchr - check the code
+ * _strchr - check the code
  * @s: pointer
  * @c: variable
  * Return: Always 0.
