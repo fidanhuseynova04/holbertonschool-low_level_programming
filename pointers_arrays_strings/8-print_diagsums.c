@@ -14,5 +14,5 @@ void print_diagsums(int *a, int size)
 		primary_diag_sum += *(a + i);
 	for (i = size - 1; i < size * size - 1; i += size - 1)
 		secondary_diag_sum += *(a + i);
-	printf("%d %d\n", primary_diag_sum, secondary_diag_sum);
+	printf("%d, %d\n", primary_diag_sum, secondary_diag_sum);
 }
