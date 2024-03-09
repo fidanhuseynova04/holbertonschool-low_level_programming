@@ -32,5 +32,6 @@ int _sqrt(int y, int x)
 		return (x);
 	else if (x * x > y)
 		return (-1);
-	return (_sqrt(x + 1, y));
+	else
+		return (_sqrt(y, x + 1));
 }
