@@ -16,17 +16,14 @@ char *_strdup(char *str)
 	{
 		return (NULL);
 	}
-	
 	while (*(str + i))
 		i++;
 
 	arr = malloc(sizeof(char) * i + 1);
-	
 	if (arr == NULL)
 	{
 		return (NULL);
 	}
-	
 	while (j < i)
 	{
 		arr[j] = *(str + j);
