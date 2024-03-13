@@ -31,6 +31,11 @@ char *str_concat(char *s1, char *s2)
 	if (str == NULL)
 		return (NULL);
 
+	while (size != size1)
+	{
+		str[size] = s1[size];
+		size++;
+	}
 	while (size != size1 + size2)
 	{
 		str[size] = s2[size - size1];
