@@ -1,7 +1,6 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
-#include <stddef.h>
 /**
  * alloc_grid - check the code
  * @width: width of the grid
@@ -24,7 +23,7 @@ int **alloc_grid(int width, int height)
 	}
 	for (i = 0; i < height; i++)
 	{
-		grid[i] = malloc(sizeof(int *) * width);
+		grid[i] = malloc(sizeof(int) * width);
 		if (grid[i] == NULL)
 		{
 			while (i >= 0)
