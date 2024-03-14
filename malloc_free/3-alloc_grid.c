@@ -1,6 +1,7 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+#include <stddef.h>y
 /**
  * alloc_grid - check the code
  * @width: width of the grid
