@@ -3,7 +3,7 @@
 #include "dog.h"
 /**
  * print_dog - check the code
- * d:dog structure
+ * @d:dog structure
  * Return: Always 0.
  */
 void print_dog(struct dog *d)
