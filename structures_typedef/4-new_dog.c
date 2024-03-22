@@ -6,7 +6,7 @@
  * new_dog - check the code
  * @name: name of dog
  * @age: age of dog
- * @owner: ownerof dog
+ * @owner: owner of dog
  * Return: Always 0.
  */
 dog_t *new_dog(char *name, float age, char *owner)
