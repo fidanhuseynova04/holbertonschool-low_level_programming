@@ -4,10 +4,10 @@
 #include <stdlib.h>
 #include <stddef.h>
 /**
- * new_dog - check the code
- * @name: name of the dog
- * @age: age of the dog
- * @owner: owner of the dog
+ * new_dog - creates a new dog
+ * @name: dog's name
+ * @age: dog's age
+ * @owner: dog's owner
  * Return: Always 0.
  */
 dog_t *new_dog(char *name, float age, char *owner)
