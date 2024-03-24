@@ -4,6 +4,7 @@
 /**
  * print_all - print arguments
  * @format: format
+ *
  * Return: Always 0.
  */
 void print_all(const char * const format, ...)
@@ -22,7 +23,7 @@ void print_all(const char * const format, ...)
 				printf("%c", va_arg(args, int));
 				break;
 			case 'i':
-				printf("%d", va_arg(args, int));
+				printf("%i", va_arg(args, int));
 				break;
 			case 'f':
 				printf("%f", va_arg(args, double));
