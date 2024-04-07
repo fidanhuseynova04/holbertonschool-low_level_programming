@@ -7,7 +7,7 @@
  * @h: head
  * Return: Always 0.
  */
-size_t print_list(const list_t *h);
+size_t print_list(const list_t *h)
 {
 	size_t node = 0;
 	char *default_str = "[0] (nil)";
