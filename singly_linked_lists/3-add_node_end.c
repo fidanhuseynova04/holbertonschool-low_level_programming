@@ -11,11 +11,11 @@
 list_t *add_node_end(list_t **head, const char *str)
 {
 	int lens = 0;
+	list_t *last;
 
 	for (lens = 0; str[lens] != '\0'; lens++)
 		;
 
-	list_t *last;
 	list_t *new_n = malloc(sizeof(list_t));
 
 	if (new_n == NULL)
